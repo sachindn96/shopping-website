@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @media(min-width:480px){
+body{
+    display: grid;
+    gap: 0px;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+        main{
+            height: 100vh;
+            width: 100%;
+            background: url(./loginpagebackground.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        div{
+            /* background-color: black; */
+            color: aqua;
+            height: 60%;
+            width: 450px;
+            text-align: center;
+            margin: auto;
+            border: 2px solid rgb(75, 73, 73);
+            border-radius: 30px;
+            backdrop-filter: blur(10px);
+
+        }
+        h1{
+            /* background-color: aquamarine; */
+            color: blue;
+        }
+        label{
+            font-size:x-large ;
+        }
+        input{
+            text-decoration: none;
+            background: none;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(207, 207, 146);
+            font-size:large ;
+
+        }
+        .a1{
+            text-decoration: none;
+            color: yellow;
+            font-size:large ;
+}
+        .button{
+            width: 50%;
+            height: 40px;
+            background-color: rgb(145, 145, 116);
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px whitesmoke;
+        }
+        .button:hover{
+            background-color: rgb(144, 64, 64);
+            color: white;
+            box-shadow: 2px 2px 2px rgb(222, 163, 163);
+
+        }
+    }
+    </style>
+</head>
+<body>
+    <main>
+    <div>
+        <h1>LOGIN PAGE</h1>
+
+        <label>user name:</label>
+        <input type="text" required name="user name" aria-required="true"><br><br>
+
+        <label>password:</label>
+        <input type="password" password="password" required><br><br>
+        <a href="" >forgot password</a><br><br>
+
+        <input type="button" class="button" value="LOGIN"><br><br>
+        <a href="./sign up.html" class="a1">SignUp</a>
+    </div>
+</main>
+</body>
+</html>
